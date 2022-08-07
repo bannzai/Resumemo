@@ -19,8 +19,7 @@
   "homepage": "https://github.com/bannzai/Resumemo#readme",
   "workspaces": [
     "packages/api",
-    "packages/web",
-    "packages/extensions"
+    "packages/web"
   ],
   "devDependencies": {
     "ts-node": "^10.9.1",
