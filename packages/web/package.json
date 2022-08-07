@@ -1,8 +1,9 @@
 {
-  "name": "resumemo",
+  "name": "web",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -11,14 +12,9 @@
     "url": "git+https://github.com/bannzai/Resumemo.git"
   },
   "author": "bannzai",
-  "private": true,
   "license": "UNLICENSED",
   "bugs": {
     "url": "https://github.com/bannzai/Resumemo/issues"
   },
-  "homepage": "https://github.com/bannzai/Resumemo#readme",
-  "workspaces": [
-    "packages/api",
-    "packages/web"
-  ]
+  "homepage": "https://github.com/bannzai/Resumemo#readme"
 }
