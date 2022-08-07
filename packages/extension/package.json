@@ -1,8 +1,9 @@
 {
-  "name": "resumemo",
+  "name": "extension",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -11,19 +12,9 @@
     "url": "git+https://github.com/bannzai/Resumemo.git"
   },
   "author": "bannzai",
-  "private": true,
   "license": "UNLICENSED",
   "bugs": {
     "url": "https://github.com/bannzai/Resumemo/issues"
   },
-  "homepage": "https://github.com/bannzai/Resumemo#readme",
-  "workspaces": [
-    "packages/api",
-    "packages/web",
-    "packages/extension"
-  ],
-  "devDependencies": {
-    "ts-node": "^10.9.1",
-    "ts-node-dev": "^2.0.0"
-  }
+  "homepage": "https://github.com/bannzai/Resumemo#readme"
 }
