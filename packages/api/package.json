@@ -1,5 +1,5 @@
 {
-  "name": "resumemo",
+  "name": "api",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -11,14 +11,9 @@
     "url": "git+https://github.com/bannzai/Resumemo.git"
   },
   "author": "bannzai",
-  "private": true,
   "license": "UNLICENSED",
   "bugs": {
     "url": "https://github.com/bannzai/Resumemo/issues"
   },
-  "homepage": "https://github.com/bannzai/Resumemo#readme",
-  "workspaces": [
-    "packages/api",
-    "packages/web"
-  ]
+  "homepage": "https://github.com/bannzai/Resumemo#readme"
 }
