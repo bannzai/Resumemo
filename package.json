@@ -11,6 +11,7 @@
     "url": "git+https://github.com/bannzai/Resumemo.git"
   },
   "author": "bannzai",
+  "private": true,
   "license": "UNLICENSED",
   "bugs": {
     "url": "https://github.com/bannzai/Resumemo/issues"
