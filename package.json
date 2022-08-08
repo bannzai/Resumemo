@@ -23,10 +23,15 @@
     "packages/extension"
   ],
   "devDependencies": {
+    "@testing-library/jest-dom": "^5.16.5",
     "@types/chrome": "^0.0.193",
+    "@types/jest": "^28.1.6",
     "@types/react": "^18.0.16",
     "@types/react-dom": "^18.0.6",
     "copy-webpack-plugin": "^11.0.0",
+    "jest": "^28.1.3",
+    "jest-chrome": "^0.7.2",
+    "ts-jest": "^28.0.7",
     "ts-loader": "^9.3.1",
     "ts-node": "^10.9.1",
     "ts-node-dev": "^2.0.0",
