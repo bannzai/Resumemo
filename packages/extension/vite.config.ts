@@ -7,7 +7,7 @@ const manifest = defineManifest({
   name: "Resumemo",
   version: "1.0.0",
   // Ref: https://developer.chrome.com/docs/extensions/mv3/declare_permissions/
-  permissions: ["activeTab", "storage", "identity"],
+  permissions: ["bookmarks", "tabs"],
   action: {
     default_popup: "index.html",
   },
