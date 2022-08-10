@@ -23,6 +23,7 @@
     "packages/extension"
   ],
   "devDependencies": {
+    "@crxjs/vite-plugin": "^1.0.13",
     "@types/chrome": "^0.0.193",
     "copy-webpack-plugin": "^11.0.0",
     "ts-loader": "^9.3.1",
