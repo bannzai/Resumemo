@@ -9,7 +9,7 @@ const manifest = defineManifest({
   // Ref: https://developer.chrome.com/docs/extensions/mv3/declare_permissions/
   permissions: ["bookmarks", "tabs"],
   action: {
-    default_popup: "index.html",
+    default_popup: "popup.html",
   },
 });
 
