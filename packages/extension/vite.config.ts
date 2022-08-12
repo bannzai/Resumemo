@@ -7,10 +7,17 @@ const manifest = defineManifest({
   name: "Resumemo",
   version: "1.0.0",
   // Ref: https://developer.chrome.com/docs/extensions/mv3/declare_permissions/
-  permissions: ["bookmarks", "tabs"],
+  permissions: ["bookmarks", "tabs", "activeTab", "scripting"],
   action: {
     default_popup: "popup.html",
   },
+  content_scripts: [
+    {
+      matches: ["*://findy-code.io/*"],
+      run_at: "document_start",
+      js: ["content.js"],
+    },
+  ],
 });
 
 // https://vitejs.dev/config/
